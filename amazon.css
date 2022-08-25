@@ -1,0 +1,131 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.space{
+    font-size: small;
+    padding: 10px;
+    color: blue;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.main2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0, 0, 0);
+    height: 250px;
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 380px;
+    min-width: 380px;
+    justify-content: center; 
+    align-items: stretch;
+    
+    
+}
+
+.inner{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 15px;
+    margin-right: 15px ;
+}
+
+.hr-lines:before{
+    content:" ";
+    height: 1px;
+    width: 100px;
+    background: rgb(0, 0, 0);
+    display: block;
+    position: absolute;
+    top: 55.8%;
+    left: 300;
+    }
+
+    .hr-lines:after{
+    content:" ";
+    height: 1px;
+    width: 100px;
+    background: rgb(0, 0, 0);
+    display: block;
+    position: absolute;
+    top: 55.8%;
+    right: 300;
+    }
+
+.new{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sign{
+    width: auto;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 0;
+
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button{
+    background-color: rgb(255, 159, 69);
+    color: black;
+    border-color: rgb(0, 0, 0);
+    border: 1px solid rgb(241, 130, 82);
+    padding-left: 145px;
+    padding-right: 145px;
+    margin-left: 4px;
+    margin-right: 4px;
+    
+    
+}
+.bbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button1{
+    display: flex;
+    width: fit-content;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+}
+
+.help{
+    font-size: small;
+    color: blue;
+    margin-left: 30px;
+    margin-top: 10px;
+}
